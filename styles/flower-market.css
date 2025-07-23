@@ -217,4 +217,16 @@ nav li a {
   .banner-left h1 {
     font-size: 30px;
   }
+
+  /* ouu plants section */
+  .card-container{
+    grid-template-columns: repeat(3,1fr);
+  }
+  .card img{
+    width: 220px;
+  }
+   .card button{
+    width: 170px;
+    padding: 20px;
+  }
 }
