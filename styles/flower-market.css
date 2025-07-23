@@ -172,6 +172,16 @@ nav li a {
   margin-top: 20px;
 }
 
+.images-container{
+  position: relative;
+}
+.flower-stamp {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  top: -120px;
+  right: -100px;
+}
 
 
 
@@ -228,11 +238,18 @@ nav li a {
     width: 170px;
     padding: 20px;
   }
+  .flower-stamp{
+    display: none;
+  }
 
   /* flower plants section */
   .flower-plants-container {
     flex-direction: column;
-    /* gap: 400px; */
+  }
+
+  .flower-img {
+    width: 358px;
+    height: 396px;
   }
 
   .flower-plants-title {
@@ -248,10 +265,10 @@ nav li a {
   .flower-plants-title li {
     text-align: left;
   }
-  
 
 
-  
+
+
 }
 
 
