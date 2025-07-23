@@ -141,6 +141,36 @@ nav li a {
   margin-top: 30px;
 }
 
+/* Flower & Plants section */
+.flower-plants-container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  margin-top: 210px;
+}
+
+.flower-plants-container h1 {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.flower-plants-container li {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  color: #00000080;
+}
+
+.flower-plants-right {
+  text-align: end;
+  margin-top: 20px;
+}
+
+.list-1 {
+  margin-top: 20px;
+}
 
 
 
@@ -183,18 +213,45 @@ nav li a {
   .banner-left p {
     font-size: 15px;
   }
+
   /* our plants section */
-  .card-container{
-    grid-template-columns: repeat(2,1fr);
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-  .card img{
+
+  .card img {
     width: 170px;
   }
-  .card button{
+
+  .card button {
     width: 170px;
     padding: 20px;
   }
+
+  /* flower plants section */
+  .flower-plants-container {
+    flex-direction: column;
+    /* gap: 400px; */
+  }
+
+  .flower-plants-title {
+    padding: 20px;
+    text-align: center;
+    text-align: left;
+  }
+
+  .flower-plants-title h1 {
+    font-size: 40px;
+  }
+
+  .flower-plants-title li {
+    text-align: left;
+  }
+  
+
+
+  
 }
 
 
@@ -219,13 +276,15 @@ nav li a {
   }
 
   /* ouu plants section */
-  .card-container{
-    grid-template-columns: repeat(3,1fr);
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
   }
-  .card img{
+
+  .card img {
     width: 220px;
   }
-   .card button{
+
+  .card button {
     width: 170px;
     padding: 20px;
   }
