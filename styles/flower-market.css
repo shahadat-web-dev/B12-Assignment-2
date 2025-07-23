@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 /* noto-serif-google-font */
 .noto-serif-normal {
   font-family: "Noto Serif", serif;
@@ -18,8 +22,9 @@
   margin: 0 auto;
 }
 
+
 /* nav-ber-section */
-.header{
+.header {
   margin-top: 30px;
 }
 
@@ -55,12 +60,161 @@ nav li a {
 }
 
 
+
+
+/* Banner section */
+.banner {
+  display: flex;
+  align-items: self-end;
+  margin-top: 230px;
+}
+
+.banner-left h1 {
+  font-family: Noto Serif;
+  font-size: 65px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.banner-left p {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  color: #00000080;
+}
+
+/* Our plants section */
+.our-plants-title {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.our-plants-title h1 {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.our-plants-title p {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  color: #00000080;
+  margin-top: 16px;
+}
+
+.card-container {
+  margin-top: 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  text-align: center;
+}
+
+.card p {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  color: #111111;
+  margin-top: 30px;
+}
+
+.card h3 {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  color: #111111;
+  margin-top: 20px;
+}
+
+.card button {
+  padding: 20px 80px;
+  background-color: #E95A08;
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  margin-top: 30px;
+}
+
+
+
+
+
+/* Mobile responsive */
 @media screen and (max-width: 586px) {
+
+  /* nav-ber */
+  nav {
+    padding: 0 9px;
+  }
+
   nav li a {
     display: none;
   }
-  .list-container p{
+
+  .list-container p {
     margin-top: 40px;
     font-size: 18px;
+  }
+
+  /* banner */
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner-left {
+    width: 370px;
+    margin-top: 28px;
+  }
+
+  .banner-right img {
+    position: center;
+  }
+
+  .banner-left h1 {
+    font-size: 24px;
+  }
+
+  .banner-left p {
+    font-size: 15px;
+  }
+  /* our plants section */
+  .card-container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+  .card img{
+    width: 170px;
+  }
+  .card button{
+    width: 170px;
+    padding: 20px;
+  }
+}
+
+
+
+
+/* Tablet responsive */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  nav {
+    padding: 10px;
+  }
+
+  .banner {
+    padding: 10px;
+  }
+
+  .banner-right img {
+    width: 400px;
+  }
+
+  .banner-left h1 {
+    font-size: 30px;
   }
 }
