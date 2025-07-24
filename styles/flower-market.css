@@ -349,6 +349,46 @@ nav li a {
   font-weight: 600;
 }
 
+/* footer section */
+.footer-container {
+  display: flex;
+  align-items: start;
+
+  margin: 50px auto;
+  gap: 110px;
+  /* justify-content: space-around; */
+}
+
+.footer-column-logo {
+  width: 359px;
+}
+
+.footer-column-logo img {
+  margin-bottom: 16px;
+}
+
+.footer-column-logo p {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  color: #00000080;
+}
+
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+
+
 
 /* Mobile responsive */
 @media screen and (max-width: 586px) {
@@ -387,12 +427,24 @@ nav li a {
 
   .banner-left p {
     font-size: 15px;
+    margin-top: 13px;
   }
 
   /* our plants section */
   .card-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+  }
+
+  .our-plants-title h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+  }
+
+  .our-plants-title p {
+    margin: 0 28px;
+    margin-top: 16px;
   }
 
   .card img {
@@ -438,6 +490,17 @@ nav li a {
     flex-direction: column;
   }
 
+  .Latest-Deals-title h1 {
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .Latest-Deals-title p {
+    margin: 50px 28px;
+    margin-top: 20px;
+  }
+
   .Latest-Deals-right {
     width: 361px;
     height: 177px;
@@ -461,31 +524,43 @@ nav li a {
   }
 
   /* join the colorful section */
-  .join-section{
+  .join-section {
     margin-top: 44px;
   }
+
   .join-the-color-container {
     background-size: cover;
     height: 275px;
-    /* margin-top: 80px; */
+
   }
-  .join-input-btn{
+
+  .join-input-btn {
     padding-top: 100px;
     width: 218px;
     margin: 0 auto;
   }
+
   .input-btn input {
     padding: 5px 5px 5px 5px;
   }
- .input-btn button{
-  padding: 10px 10px 15px 10px;
- }
+
+  .input-btn button {
+    padding: 10px 10px 15px 10px;
+  }
 
   .join-input-btn h1 {
     font-family: Noto Serif;
     font-size: 18px;
     font-weight: 700;
   }
+
+  /* footer section */
+  .footer-container {
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+  }
+
 
 
 }
@@ -552,21 +627,33 @@ nav li a {
   }
 
   /* join the colorful */
-   .join-input-btn{
+  .join-input-btn {
     padding-top: 300px;
     width: 218px;
     margin: 0 auto;
   }
+
   .input-btn input {
     padding: 15px 200px 15px 20px;
   }
- .input-btn button{
-  padding: 15px 15px 15px 15px;
- }
+
+  .input-btn button {
+    padding: 15px 15px 15px 15px;
+  }
 
   .join-input-btn h1 {
     font-family: Noto Serif;
     font-size: 18px;
     font-weight: 700;
+  }
+
+  /* footer section */
+  .footer-container {
+    margin: 63px 30px;
+  }
+
+  .footer-icon {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
