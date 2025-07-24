@@ -189,6 +189,7 @@ nav li a {
 .latest-deals-container {
   display: flex;
   gap: 28px;
+  justify-content: center;
 }
 
 .Latest-Deals-title {
@@ -296,6 +297,57 @@ nav li a {
   margin-top: 10px;
 }
 
+/* Latest Deals */
+.join-section {
+  margin-top: 120px;
+
+}
+
+.join-the-color-container {
+  background-image: url(../images/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 533px;
+
+}
+
+.join-input-btn {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+
+.join-input-btn h1 {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.input-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+
+.input-btn input {
+  padding: 20px 400px 20px 20px;
+  border: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #00000000;
+  width: 300px;
+}
+
+.input-btn button {
+  padding: 20px 50px;
+  border: none;
+  background-color: #E95A08;
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
 
 
 /* Mobile responsive */
@@ -408,6 +460,32 @@ nav li a {
     margin: 0 auto;
   }
 
+  /* join the colorful section */
+  .join-section{
+    margin-top: 44px;
+  }
+  .join-the-color-container {
+    background-size: cover;
+    height: 275px;
+    /* margin-top: 80px; */
+  }
+  .join-input-btn{
+    padding-top: 100px;
+    width: 218px;
+    margin: 0 auto;
+  }
+  .input-btn input {
+    padding: 5px 5px 5px 5px;
+  }
+ .input-btn button{
+  padding: 10px 10px 15px 10px;
+ }
+
+  .join-input-btn h1 {
+    font-family: Noto Serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
 
 
 }
@@ -450,21 +528,45 @@ nav li a {
   .flower-plants-container {
     flex-direction: column;
   }
- .flower-plants-title{
-  padding: 50px;
- }
- .latest-deals-container{
-  /* flex-direction: column; */
-  gap: 10px;
- }
- .latest-section{
-padding: 10px;
 
+  .flower-plants-title {
+    padding: 50px;
+  }
+
+  .latest-deals-container {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .latest-section {
+    padding: 10px;
+
+  }
+
+  .Latest-Deals-right {
+    width: 370px;
+  }
+
+  .Latest-Deals-right h2 {
+    font-size: 24px;
+  }
+
+  /* join the colorful */
+   .join-input-btn{
+    padding-top: 300px;
+    width: 218px;
+    margin: 0 auto;
+  }
+  .input-btn input {
+    padding: 15px 200px 15px 20px;
+  }
+ .input-btn button{
+  padding: 15px 15px 15px 15px;
  }
- .Latest-Deals-right{
-  width: 370px;
- }
- .Latest-Deals-right h2{
-      font-size: 24px;
- }
+
+  .join-input-btn h1 {
+    font-family: Noto Serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
 }
