@@ -379,10 +379,34 @@ nav li a {
   .flower-plants-title li {
     text-align: left;
   }
-/* Latest Deals section */
-.flower-plants-container{
-  flex-direction: column-reverse;
-}
+
+  /* Latest Deals section */
+
+  .latest-deals-container {
+    flex-direction: column;
+  }
+
+  .Latest-Deals-right {
+    width: 361px;
+    height: 177px;
+    margin: 0 auto;
+  }
+
+  .Latest-Deals-right h2 {
+    font-family: Noto Serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .Latest-Deals-right p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .Latest-Deals-left {
+    margin: 0 auto;
+  }
 
 
 
@@ -422,4 +446,25 @@ nav li a {
     width: 170px;
     padding: 20px;
   }
+
+  .flower-plants-container {
+    flex-direction: column;
+  }
+ .flower-plants-title{
+  padding: 50px;
+ }
+ .latest-deals-container{
+  /* flex-direction: column; */
+  gap: 10px;
+ }
+ .latest-section{
+padding: 10px;
+
+ }
+ .Latest-Deals-right{
+  width: 370px;
+ }
+ .Latest-Deals-right h2{
+      font-size: 24px;
+ }
 }
