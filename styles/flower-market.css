@@ -463,8 +463,10 @@ nav li a {
   /* flower plants section */
   .flower-plants-container {
     flex-direction: column;
+    margin-top: 40px;
   }
 
+  
   .flower-img {
     width: 358px;
     height: 396px;
@@ -477,7 +479,15 @@ nav li a {
   }
 
   .flower-plants-title h1 {
-    font-size: 40px;
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .flower-plants-title p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
   }
 
   .flower-plants-title li {
